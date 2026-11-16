@@ -1,0 +1,23 @@
+package ni.edu.uam.hibernateorm.repository;
+
+import ni.edu.uam.hibernateorm.model.Usuario;
+
+import java.util.List;
+import java.util.Optional;
+import java.util.UUID;
+
+public interface UsuarioRepository {
+    List<Usuario> findAll() throws Exception;
+
+
+    Optional<Usuario> findById(UUID id) throws Exception;
+
+    void save(Usuario usuario) throws Exception;
+
+    void update(Usuario usuario) throws Exception;
+
+    void delete(UUID id) throws Exception;
+
+    Optional<Usuario> findByLogin(String usuario
+            ,String password) throws Exception;
+}

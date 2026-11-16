@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "skills": {
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "computedHash": "89496d5dd00f4810205f351759594fc2742bf8eea85a2f2b2d1de59f4bd91576"
+    },
+    "java-coding-standards": {
+      "source": "affaan-m/everything-claude-code",
+      "sourceType": "autoskills-registry",
+      "computedHash": "0eb8a23043dbddfd30e0bb50118c66d60641bf4327b162c3477b9824dc319ac7"
+    },
+    "java-docs": {
+      "source": "github/awesome-copilot",
+      "sourceType": "autoskills-registry",
+      "computedHash": "966d266801cce0b8d9039cb77a85249e8f318148be5ae5cbac09e45175b7fe5e"
+    }
+  }
+}
